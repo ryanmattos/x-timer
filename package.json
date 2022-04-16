@@ -1,0 +1,30 @@
+{
+  "name": "itix-extension",
+  "version": "0.0.1-BETA",
+  "description": "An extension to count timer down and punch the clock for you",
+  "main": "src/background.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack/webpack.config.js"
+  },
+  "keywords": [
+    "clock",
+    "itix",
+    "timer",
+    "punch",
+    "work",
+    "job",
+    "employee"
+  ],
+  "author": "Ryan Matos",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.181",
+    "copy-webpack-plugin": "^10.2.4",
+    "html-loader": "^3.1.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
